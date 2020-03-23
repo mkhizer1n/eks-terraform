@@ -6,12 +6,12 @@ variable "aws_region" {
 variable "aws_access_key" {
  type = "string"
  description = "The account identification key used by your Terraform client."
- default = "AKIA3QQQQARMJVJKVFFF"
+ default = ""
 }
 variable "aws_secret_key" {
  type = "string"
  description = "The secret key used by your terraform client to access AWS."
- default = "DlRs70Y7YLwna8eUT3Nobf6fcQnBXPHeaBOAVzsM"
+ default = ""
 }
 
 variable "subnet_count" {
@@ -23,7 +23,7 @@ variable "subnet_count" {
 variable "accessing_computer_ip" {
  type = "string"
  description = "IP of the computer to be allowed to connect to EKS master and nodes."
- default = "3.83.136.16"
+ default = ""
 }
 
 variable "keypair-name" {
